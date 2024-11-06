@@ -46,9 +46,9 @@ public class Something extends SettingsPreferenceFragment {
         for (int i = 0; i < count; i++) {
             final Preference preference = screen.getPreference(i);
             String key = preference.getKey();
-            if (key.equals("first")){
+            if (key.equals("something_interface")){
                 preference.setLayoutResource(R.layout.something_dashboard_preference_top);
-            } else if (key.equals("mid")){
+            } else if (key.equals("something_system_options") || key.equals("something_simulation") || key.equals("something_extensions")){
                 preference.setLayoutResource(R.layout.something_dashboard_preference_middle);
             } else if (key.equals("about_something")){
                 preference.setLayoutResource(R.layout.something_dashboard_preference_bottom);

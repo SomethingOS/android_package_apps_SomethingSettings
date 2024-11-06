@@ -11,6 +11,34 @@
         android:order="-1001" />
 
     <Preference
+        android:key="something_interface"
+        android:title="@string/something_interface_title"
+        android:summary="@string/something_interface_summary"
+        android:icon="@drawable/ic_interface"
+    />
+
+    <Preference
+        android:key="something_system_options"
+        android:title="@string/something_system_options_title"
+        android:summary="@string/something_system_options_summary"
+        android:icon="@drawable/ic_system_options"
+    />
+
+    <Preference
+        android:key="something_simulation"
+        android:title="@string/something_simulation_title"
+        android:summary="@string/something_simulation_summary" 
+        android:icon="@drawable/ic_simulation"
+    />
+
+    <Preference
+        android:key="something_extensions"
+        android:title="@string/something_extensions_title"
+        android:summary="@string/something_extensions_summary"
+        android:icon="@drawable/ic_extension"
+    />
+
+    <Preference
         android:key="about_something"
         android:title="@string/about_something_title"
         android:fragment="org.somethingos.somethingsettings.fragments.aboutsomething.AboutSomething"

@@ -5,6 +5,16 @@
     <!-- SomethingOS Settings -->
     <string name="somethingos_dashboard_title">SomethingOS</string>
 
+    <!-- Categories -->
+    <string name="something_simulation_title">Simulation</string>
+    <string name="something_simulation_summary">Simulate apps and behaviors</string>
+    <string name="something_interface_title">Interface</string>
+    <string name="something_interface_summary">Customize the look and feel</string>
+    <string name="something_system_options_title">System Options</string>
+    <string name="something_system_options_summary">Tweak system settings</string>
+    <string name="something_extensions_title">Extensions</string>
+    <string name="something_extensions_summary">Manage your extensions</string>
+
     <!-- About Something -->
     <string name="about_something_title">About</string>
     <string name="about_something_social">Social</string>
