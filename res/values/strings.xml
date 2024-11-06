@@ -15,6 +15,11 @@
     <string name="something_extensions_title">Extensions</string>
     <string name="something_extensions_summary">Manage your extensions</string>
 
+    <!-- Interface / Bootanimation -->
+    <string name="bootanimation_title">Boot Animation</string>
+    <string name="bootanimation_summary">Customize your bootanimation</string>
+    <string name="preview_category_title">Preview</string>
+
     <!-- About Something -->
     <string name="about_something_title">About</string>
     <string name="about_something_social">Social</string>

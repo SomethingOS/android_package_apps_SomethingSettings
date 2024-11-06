@@ -15,7 +15,7 @@
         android:title="@string/something_interface_title"
         android:summary="@string/something_interface_summary"
         android:icon="@drawable/ic_interface"
-    />
+        android:fragment="org.somethingos.somethingsettings.fragments.ui.InterfaceSettings" />
 
     <Preference
         android:key="something_system_options"
