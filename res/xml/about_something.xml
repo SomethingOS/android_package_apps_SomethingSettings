@@ -30,12 +30,6 @@
         <Preference
             android:icon="@drawable/ic_donate"
             android:key="something_donate"
-            android:title="@string/something_buymeacoffee_title"
-            android:summary="@string/something_buymeacoffee_summary" />
-
-        <Preference
-            android:icon="@drawable/ic_donate2"
-            android:key="something_donate2"
             android:title="@string/something_paypal_title"
             android:summary="@string/something_paypal_summary" />
 
