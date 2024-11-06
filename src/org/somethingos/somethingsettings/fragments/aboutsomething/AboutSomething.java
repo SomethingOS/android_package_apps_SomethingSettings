@@ -29,9 +29,9 @@ public class AboutSomething extends SettingsPreferenceFragment implements Prefer
     private static final String[] earlyDonators = {
         "Kevin Pirnie",
         "Sehmee2",
-	"DigiGoon",
-	"Léo Chatron",
-	"Eliacim"
+        "DigiGoon",
+        "Léo Chatron",
+        "Eliacim"
     };
 
     private static final Credit[] somethingOSTeam = {
@@ -44,10 +44,6 @@ public class AboutSomething extends SettingsPreferenceFragment implements Prefer
         new Credit("ParanoidAndroid Team", "SomethingOS is based on AOSPA", "https://paranoidandroid.co"),
         new Credit("LineageOS Team", "Updater and much more", "https://lineageos.org"),
         new Credit("CrDroid", "Some ideas and code", "https://crdroid.net"),
-        new Credit("Lawnchair Team", "They made Lawnchair, the default launcher in SomethingOS", "https://lawnchair.app"),
-        new Credit("That Josh Guy", "His amazing Android Wallpaper", "https://thatjoshguy.me/"),
-        new Credit("HESEINBERG", "His help on sources", "https://github.com/janakniraula"),
-        new Credit("z-huang", "for Innertune", "https://github.com/z-huang/InnerTune"),
         new Credit("zhanghai", "for MaterialFiles", "https://github.com/zhanghai/MaterialFiles"),
         new Credit("And many more", "Check commit authors on Github", "https://github.com/SomethingOS"),
         new Credit("You", "For using SomethingOS", "https://www.somethingos.com/")
