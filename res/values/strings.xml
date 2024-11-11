@@ -20,6 +20,10 @@
     <string name="bootanimation_summary">Customize your bootanimation</string>
     <string name="preview_category_title">Preview</string>
 
+    <!-- System Options -->
+    <string name="app_downgrade_title">Allow package downgrade</string>
+    <string name="app_downgrade_summary">Allow installation of lower version of an app</string>
+
     <!-- About Something -->
     <string name="about_something_title">About</string>
     <string name="about_something_social">Social</string>
