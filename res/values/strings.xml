@@ -33,6 +33,7 @@
     <string name="qs_auto_brightness_summary">Show toggle for adaptive brightness near the slider</string>
 
     <!-- System Options -->
+    <string name="app_category">Applications</string>
     <string name="app_downgrade_title">Allow package downgrade</string>
     <string name="app_downgrade_summary">Allow installation of lower version of an app</string>
 
