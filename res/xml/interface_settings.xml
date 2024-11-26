@@ -4,11 +4,43 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/something_interface_title">
 
-    <Preference
-        android:key="something_bootanimation"
-        android:title="@string/bootanimation_title"
-        android:summary="@string/bootanimation_summary"
-        android:icon="@drawable/ic_bootanimation"
-        android:fragment="org.somethingos.somethingsettings.fragments.ui.BootAnimation" />
+    <PreferenceCategory
+        android:key="bootanim_category"
+        android:title="@string/bootanimation_title">
+
+        <Preference
+            android:key="something_bootanimation"
+            android:title="@string/bootanimation_title"
+            android:summary="@string/bootanimation_summary"
+            android:icon="@drawable/ic_bootanimation"
+            android:fragment="org.somethingos.somethingsettings.fragments.ui.BootAnimation" />
+        
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="brightness_category"
+        android:title="@string/qs_brightness_slider_title">
+
+        <co.aospa.framework.preference.SecureSettingListPreference
+            android:key="qs_show_brightness_slider"
+            android:title="@string/qs_brightness_slider_title"
+            android:entries="@array/qs_brightness_slider_entries"
+            android:entryValues="@array/qs_brightness_slider_values"
+            android:defaultValue="2" />
+
+        <co.aospa.framework.preference.SecureSettingListPreference
+            android:key="qs_brightness_slider_position"
+            android:title="@string/qs_brightness_slider_position_title"
+            android:entries="@array/qs_brightness_slider_position_entries"
+            android:entryValues="@array/qs_brightness_slider_position_values"
+            android:defaultValue="1" />
+
+        <co.aospa.framework.preference.SecureSettingSwitchPreference
+            android:key="qs_show_auto_brightness"
+            android:title="@string/qs_auto_brightness_title"
+            android:summary="@string/qs_auto_brightness_summary"
+            android:defaultValue="true" />
+    
+    </PreferenceCategory>
 
 </PreferenceScreen>
