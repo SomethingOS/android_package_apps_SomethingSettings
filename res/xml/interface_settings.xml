@@ -43,4 +43,16 @@
     
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="navbar_category"
+        android:title="@string/navbar_category_title">
+
+        <co.aospa.framework.preference.SystemSettingSwitchPreference
+            android:key="navigation_bar_hint"
+            android:title="@string/navbar_visibility_title"
+            android:summary="@string/navbar_visibility_summary"
+            android:defaultValue="false" />
+    
+    </PreferenceCategory>
+
 </PreferenceScreen>
